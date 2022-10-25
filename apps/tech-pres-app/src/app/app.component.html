@@ -1,1 +1,6 @@
-<tech-pres-nx-welcome></tech-pres-nx-welcome>
+<div>
+  <tech-pres-img-card
+    *ngFor="let card of cards"
+    [imgUrl]="card.imgUrl"
+  ></tech-pres-img-card>
+</div>
